@@ -1,0 +1,19 @@
+{
+  "short_name": "HN-NG-PWA",
+  "name": "Angular HN PWA Clone",
+  "start_url": "/",
+
+  "theme_color": "#f48c5b",
+  "background_color": "#ffffff",
+
+  "display": "standalone",
+  "orientation": "portrait",
+
+  "icons": [
+    {
+      "src": "/assets/icons/android-icon-192x192.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

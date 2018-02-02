@@ -28,12 +28,7 @@ const apiService = new ApiService();
   imports: [
     BrowserModule,
     AppRoutingModule,
-    environment.production ? ServiceWorkerModule.register('./ngsw-worker.js') : [],
-    AngularFireModule.initializeApp({
-      apiKey: '<API_KEY>',
-      databaseURL: 'https://hacker-news.firebaseio.com',
-      authDomain: '<AUTH_DOMAIN>',
-    }),
+    environment.production ? ServiceWorkerModule.register('/ngsw-worker.js') : [],
     NewestModule,
     CommentsModule,
     ShowModule,
